@@ -28,7 +28,7 @@ makedepends=(
 #optdepends=()
 provides=('gr-osmosdr' 'gnuradio-osmosdr')
 
-source=('git+https://git.osmocom.org/gr-osmosdr')
+source=('git+https://github.com/amaroq74/gr-osmosdr')
 md5sums=('SKIP')
 _gitname="gr-osmosdr"
 
