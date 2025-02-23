@@ -16,7 +16,7 @@ depends=(
     'rtl-sdr'
     'libuhd'
     'libmirisdr-git'
-    'libosmosdr-git'
+#    'libosmosdr-git'
     'airspy-git'
     )
 makedepends=(
