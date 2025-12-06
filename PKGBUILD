@@ -4,8 +4,8 @@
 # Modified from rtl-sdr-git PKGBUILD
 
 pkgname=gr-osmosdr-git
-pkgver=5c5642
-pkgrel=1
+pkgver=fab2bd
+pkgrel=2
 pkgdesc="GNU Radio source block for OsmoSDR, which is a 100% Free Software based small form-factor inexpensive SDR (Software Defined Radio) project."
 arch=('i686' 'x86_64')
 url="https://osmocom.org/projects/gr-osmosdr/wiki"
@@ -28,7 +28,7 @@ makedepends=(
 #optdepends=()
 provides=('gr-osmosdr' 'gnuradio-osmosdr')
 
-source=('git+https://github.com/amaroq74/gr-osmosdr')
+source=('git+https://github.com/amaroq74/gr-osmosdr.git#branch=single')
 md5sums=('SKIP')
 _gitname="gr-osmosdr"
 
